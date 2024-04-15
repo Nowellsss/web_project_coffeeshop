@@ -107,7 +107,6 @@
   color: #838383;
   display: flex;
   justify-content: space-between;
-  align-items: end;
   margin-top: auto;
 }
 
@@ -125,7 +124,6 @@
 
 .header__footer_address {
   display: flex;
-  justify-content: end;
   margin-right: 80px;
   margin-bottom: 40px;
 }
