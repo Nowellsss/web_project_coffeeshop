@@ -19,6 +19,7 @@
   position: relative;
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 
 .nav {
@@ -91,11 +92,11 @@
 }
 
 .header__image {
-  width: 646px;
+  position: absolute;
+  right: 5px;
+  top: 124px;
   height: 568px;
-  margin-right: 5px;
-  margin-top: 124px;
-  margin-left: auto;
+  width: 646px;
 }
 
 .header__footer {
@@ -110,7 +111,7 @@
   margin-top: auto;
 }
 
-.header__footer_columns {
+.header__list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -122,7 +123,7 @@
   color: #6f6f6f;
 }
 
-.header__footer_address {
+.header__address {
   display: flex;
   margin-right: 80px;
   margin-bottom: 40px;
