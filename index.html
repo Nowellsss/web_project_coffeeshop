@@ -8,8 +8,8 @@
       content="Um café bem feito é uma obra de arte, assim como uma vida bem vivida."
       />
       <meta name="author" content="Jorge Mendes" />
-      <meta name="keywords" content="café Coffeeshop coffee" />
-      <title>Coffeeshop</title>
+      <meta name="keywords" content="Café Coffeeshop coffee" />
+      <title>Triple Espresso</title>
       <link rel="shortcut icon" href="favicon.ico" />
       <link rel="stylesheet" href="./vendor/normalize.css" />
       <link rel="stylesheet" href="./pages/index.css" />
@@ -83,8 +83,10 @@
               allowfullscreen
             >
             </iframe>
-              <p class="recipes__video-caption">Receita Aeropress</p>
-              <p class="recipes__video-caption">~5 min</p>
+              <div class="recipes__video-caption">
+                <p>Receita Aeropress</p>
+                <p>~5 min</p>
+            </div>
           </div>
           <div class="recipes__video-item">
             <iframe
@@ -97,15 +99,17 @@
               allowfullscreen
             >
             </iframe>
-              <p class="recipes__video-caption">Receita de Prensa Francesa</p>  
-              <p class="recipes__video-caption">~15 min</p> 
+              <div class="recipes__video-caption">
+                <p>Receita de Prensa Francesa</p>  
+                <p>~15 min</p> 
+              </div>
           </div>
         </div>  
       </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
           <form class="form reservation__form">
-            <fieldset class="reservation__input-container">
+            <fieldset class="reservation__input-container" >
               <label for="name" class="reservation__label reservation__label_start">Nome: *</label>
               <input
                 type="text"
@@ -125,6 +129,7 @@
                 id="content-width"
                 name="content-width"
                 placeholder="1-8"
+                required
               />
 
               <label for="pub-date" class="reservation__label reservation__label_start">Data e hora: *</label>
@@ -133,6 +138,7 @@
                 class="reservation__item"
                 id="pub-date"
                 name="pub-date"
+                required
               />
 
               <label for="email" class="reservation__label reservation__label_start">Seu e-mail: *</label>
@@ -142,6 +148,7 @@
                 id="email"
                 name="email"
                 placeholder="email@email.com"
+                required
               />
 
               <button type="submit" class="reservation__button">
@@ -155,14 +162,50 @@
                   id="bold-heading"
                   class="reservation__item reservation__item_check-align"
                   value="bold-heading"
+                  required
                 />Eu concordo com os termos de uso</label>
             </fieldset>
           </form>
         </section>
       </main>
       <footer class="footer" id="contacts">
+        <div class="footer__content">
+          <div class="footer__circle">
 
-      </footer>
+          </div>
+          <div class="footer__column">
+            <img
+                src="./images/logo_coffeeshop_light.svg"
+                alt="Ilustração do Logo da Triple Espresso"
+                class="footer__logo"
+              />
+            </div>
+            <div class="footer__column footer__social">
+              <h4 class="footer__social-heading">Redes Sociais</h4>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="#" class="footer__social-link">
+                    <img
+                      src="./images/facebook_white.svg"
+                      alt="Facebook icon"
+                      class="footer__social-icon"
+                    />Facebook</a
+                  >
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__social-link">
+                    <img
+                      src="./images/instagram_white.svg"
+                      alt="Instagram icon"
+                      class="footer__social-icon"
+                    />Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer__copyright">@ 2024 Jorge Mendes</p>
+        </footer>
     </div>
   </body>
 </html>
