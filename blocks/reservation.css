@@ -25,7 +25,7 @@
     margin-bottom: 80px;
   }
   
-.reservation__form {
+  .reservation__form {
     margin-left: auto;
     margin-right: auto;
   }
@@ -68,6 +68,10 @@
     border-radius: 4px;
     height: 60px;  
     margin-bottom: 32px;
+  }
+
+  .reservation__button:hover {
+    opacity: .7;
   }
   .reservation__label_start {
     align-self: flex-start;
