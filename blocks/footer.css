@@ -85,12 +85,8 @@
     line-height: 20px;
   }
 
-  .form__social-link:hover {
+  .footer__social-link:hover {
     color: #C1C1C1;
-  }
-  
-  .form__social-link:focus {
-    outline-color: #C1C1C1;
   }
   
   .footer__social-icon {
